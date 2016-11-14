@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marcianito2"
+    android:orientation="vertical"
+    android:id="@+id/layout_padre">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:id="@+id/layout2"
+        android:weightSum="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:text="@string/tbienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textoBienvenida"
+            tools:ignore="HardcodedText"
+            android:textAppearance="@android:style/TextAppearance.WindowTitle"
+            android:textAlignment="center"
+            android:textSize="38sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center"
+            android:layout_weight="0.49" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout3"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:text="@string/tentrar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boton"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+            android:background="@drawable/botonborde" />
+    </LinearLayout>
+</LinearLayout>
