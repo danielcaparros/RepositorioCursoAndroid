@@ -1,1 +1,5 @@
-fichero txt leeme
+Semana 3
+
+Mi primer proyecto Android
+
+Daniel Caparrós
