@@ -1,7 +1,5 @@
 ﻿Semana 3
 
-branch de comparacion
-
 
 Daniel Caparrós
 
