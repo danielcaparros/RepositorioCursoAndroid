@@ -1,6 +1,7 @@
 ﻿Semana 3
 
-Mi primer proyecto Android
+branch de comparacion
+
 
 Daniel Caparrós
 
